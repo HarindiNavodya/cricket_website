@@ -1,0 +1,234 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 auto 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 40px auto;
+  width: 550px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.team-container h1 {
+  margin-top: 170px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.team-container p {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 330px;
+  outline: none;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.create-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.create-team h2 {
+  margin-bottom: 10px;
+}
+
+.create-team p {
+  margin-bottom: 15px;
+}
+
+.input-fields input {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.team-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+
+
+.team-options button {
+    border-radius: 5px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+.team-options button.active {
+  border-bottom: 2px solid #333;
+}
+
+.create-team button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fad66a;
+  color: white;
+  cursor: pointer;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+}
+
+.team-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.team-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 6px;
+}
+
+.team-item h3 {
+  margin-bottom: 5px;
+}
+
+.team-item button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d4e6f9;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.create-team-container {
+  padding: 20px;
+}
+
+.create-team-box {
+  background-color: #c4e0fe;
+  padding: 20px;
+  border-radius: 10px;
+  width: 370px;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+}
+
+.box-content {
+  flex: 1;
+}
+
+.create-team-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.create-team-box p {
+  margin-bottom: 20px;
+}
+
+.create-team-button {
+  background-color: #ffe68a;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teams-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.team-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.team-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.team-details {
+  margin-right: auto;
+}
+
+.team-details h3 {
+  margin-bottom: 5px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
